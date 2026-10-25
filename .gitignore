@@ -1,0 +1,33 @@
+# Byte-compiled and cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# The dataset is 221 MB and is fetched from Zenodo, never committed.
+data/
+*.zip
+!assets/**/*.zip
+
+# Generated figures can be rebuilt with tools/make_figures.py, but they are
+# committed on purpose so the documentation renders on GitHub. Nothing else in
+# results/ is generated at build time.
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local scratch that the CARA comparison writes
+/tmp_*.csv
+
+# Agent skill packs installed with `npx skills add`. These are tooling for
+# editing the repository, not part of the research, and they are large.
+.agents/
+.claude/
+agent/
+skills-lock.json

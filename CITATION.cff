@@ -1,0 +1,62 @@
+cff-version: 1.2.0
+message: "If you use this work, cite it as below."
+title: "Kelvins Collision Avoidance Study: threshold-explicit evaluation of collision-probability forecasts"
+abstract: >-
+  A reproduction of the ESA Kelvins Spacecraft Collision Avoidance Challenge
+  baseline (F2 = 0.7391 against a published 0.739), with the orbital, covariance
+  and probability-of-collision layers rebuilt and validated against NASA CARA's
+  own Pc code, and an evaluation layer measuring false positives and false
+  negatives at five operator reaction thresholds over 199,082 CDMs.
+authors:
+  - name: "nakshjhaai-lgtm"
+    website: "https://github.com/nakshjhaai-lgtm"
+version: "0.2.0"
+date-released: "2026-09-27"
+repository-code: "https://github.com/nakshjhaai-lgtm/Research-"
+url: "https://github.com/nakshjhaai-lgtm/Research-"
+keywords:
+  - conjunction assessment
+  - collision probability
+  - space situational awareness
+  - Kelvins
+  - NASA CARA
+  - calibration
+  - reproducibility
+references:
+  - type: article
+    title: "Spacecraft Collision Avoidance Challenge: design and results of a machine learning competition"
+    authors:
+      - family-names: Uriot
+        given-names: Thomas
+      - family-names: Izzo
+        given-names: Dario
+      - family-names: Abay
+        given-names: Richard
+      - family-names: Simões
+        given-names: Luís F.
+      - family-names: Einecke
+        given-names: Nils
+      - family-names: Rebhan
+        given-names: Stefan
+      - family-names: Martinez-Heras
+        given-names: Jose
+      - family-names: Letizia
+        given-names: Francesca
+      - family-names: Siminski
+        given-names: Jan
+      - family-names: Merz
+        given-names: Klaus
+    journal: Astrodynamics
+    volume: 6
+    issue: 2
+    start: 121
+    end: 140
+    year: 2022
+    doi: "10.1007/s42064-021-0101-5"
+    url: "https://arxiv.org/abs/2008.03069"
+  - type: dataset
+    title: "Spacecraft Collision Avoidance Challenge Dataset"
+    authors:
+      - name: "European Space Agency"
+    year: 2021
+    doi: "10.5281/zenodo.4463683"

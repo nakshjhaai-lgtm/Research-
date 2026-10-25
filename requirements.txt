@@ -1,0 +1,14 @@
+# Runtime dependencies for the Kelvins collision-avoidance pipeline.
+#
+# NOTE: installed packages do NOT persist across turns in this environment --
+# the workspace snapshot saves files under /home/user only.  Run
+#   bash scripts/restore.sh
+# after any reset; it installs this file and re-fetches the dataset.
+#
+# Versions are the ones the results in results/ were produced with.
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.1
+scikit-learn==1.6.1
+matplotlib==3.10.9
+sgp4==2.27
