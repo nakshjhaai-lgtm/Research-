@@ -1,0 +1,6 @@
+provider,log10_threshold,true_high_risk_events,true_high_risk_share_%,events_LRP_would_flag
+SpaceX Starlink (autonomous),-6.522878745280337,168,7.752653437932626,237
+Kelvins competition,-6.0,150,6.92201199815413,178
+ESA (lower bound of mission range),-5.0,56,2.5842178126442086,73
+ESA / DLR / CSA / 18 SPCS / NASA CARA,-4.0,17,0.7844946931241348,23
+JAXA,-3.0,5,0.23073373327180433,2
